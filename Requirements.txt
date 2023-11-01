@@ -1,0 +1,50 @@
+Of course! Here's a Django REST framework exercise to create a simple
+RESTful API for managing a list of books. Follow these steps to complete the project:
+
+**Project: Bookstore API**
+
+**Objective**: Create a RESTful API using Django and Django REST framework for managing books.
+
+**Requirements**:
+
+1. Create a new Django project and app for the Bookstore API.
+2. Define a model for the book. Each book should have the following attributes:
+   - Title
+   - Author
+   - Publication Year
+   - ISBN (International Standard Book Number)
+   - Genre
+3. Create API endpoints for the following operations:
+   - List all books.
+   - Retrieve a single book by its ID.
+   - Create a new book.
+   - Update an existing book.
+   - Delete a book.
+4. Implement proper validation and error handling for API requests.
+5. Use class-based views and serializers from Django REST framework.
+6. Ensure that the API returns data in JSON format.
+7. Create a user-friendly API documentation using the built-in Django REST framework
+ tools (e.g., Browsable API).
+
+**Hints**:
+
+- Create a Django model for the book using Django's `models` module.
+- Create a serializer to convert the model data to JSON format.
+- Use class-based views like `ListCreateAPIView` and `RetrieveUpdateDestroyAPIView`
+provided by Django REST framework.
+- Implement proper URL routing and viewset registration.
+- Configure the Django settings to use the Django REST framework for your app.
+- You can use Django's built-in authentication system or implement token-based
+authentication for securing your API if necessary.
+- Make use of the Django REST framework documentation for generating user-friendly
+API documentation.
+
+**Bonus**:
+
+- Implement search and filter functionality to search for books by title, author, or genre.
+- Add pagination to the list view if there are many books.
+- Create unit tests for your API endpoints using Django's testing framework.
+
+This exercise should help you practice creating a RESTful API using Django and
+Django REST framework. Feel free to customize and expand upon it to further
+enhance your skills in building RESTful services with Django.
